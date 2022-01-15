@@ -21,8 +21,8 @@ spec:
         - name: PROCESSINGSCRIPT
           value: twitter-to-pubsub
         # This is the name of pubsub topic
-        - name: twitter_listener
-          value: projects/your-project/topics/your-topic
+        - name: PUBSUB_TOPIC
+          value: projects/sonic-potion-338323/topics/twitter_listener
         # The following four settings are the twitter credentials information.
         - name: CONSUMERKEY
           value: yOgCASUCPzXgpqvvh05YtQWi2
