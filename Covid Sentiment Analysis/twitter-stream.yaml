@@ -21,7 +21,7 @@ spec:
         - name: PROCESSINGSCRIPT
           value: twitter-to-pubsub
         # This is the name of pubsub topic
-        - name: data-inside
+        - name: twitter_listener
           value: projects/your-project/topics/your-topic
         # The following four settings are the twitter credentials information.
         - name: CONSUMERKEY
